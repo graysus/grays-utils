@@ -1,2 +1,3 @@
 # grays-utils
-discord.py
+**Discord.py library for these things (as of now)**
+- Pagination
