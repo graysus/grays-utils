@@ -4,8 +4,8 @@
 
 **To use the paginator:**
 
-Sample code: ```
-embed = discord.Embed(title="Python code stuff",description="{con}")
+Sample code:
+`embed = discord.Embed(title="Python code stuff",description="{con}")
   .set_footer("Sample {pagen} of {pages}")
 
 code_samples = [
@@ -24,4 +24,4 @@ async def ping(ctx):
 #check this code out for usage
 pagi = graysutils.Paginator(embed,*code_samples)
 await pagi(ctx,client,ctx.author.id)
-```
+`
