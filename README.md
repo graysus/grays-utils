@@ -6,7 +6,8 @@
 
 Sample code:
 
-```embed = discord.Embed(title="Python code stuff",description="{con}")
+```python
+embed = discord.Embed(title="Python code stuff",description="{con}")
   .set_footer("Sample {pagen} of {pages}")
 
 code_samples = [
